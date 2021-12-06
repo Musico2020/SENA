@@ -87,7 +87,7 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">home</a></li>
+				<li class="menu_mm"><a href="index.html">Inicio</a></li>
 				<li class="menu_mm"><a href="#">clothes</a></li>
 				<li class="menu_mm"><a href="#">accessories</a></li>
 				<li class="menu_mm"><a href="#">lingerie</a></li>
@@ -161,7 +161,7 @@
 							<ul>
 								<li>
 									<div class="contact_info_icon"><img src="images/contact_info_1.png" alt=""></div>
-									<div class="contact_info_text">Valledupar Cesar, calle 16 #8 9</div>
+									<div class="contact_info_text">Valledupar Cesar, calle 16 # 8/ 9</div>
 								</li>
 								<li>
 									<div class="contact_info_icon"><img src="images/contact_info_2.png" alt=""></div>
@@ -195,23 +195,23 @@
 							<div class="accordions">
 
 								<div class="accordion_container">
-									<div class="accordion d-flex flex-row align-items-center"><div>Lorem ipsum dolor sit amet, consectetur?</div></div>
+									<div class="accordion d-flex flex-row align-items-center"><div>Quieres saber quienes somos?</div></div>
 									<div class="accordion_panel">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo.</p>
+										<p>Somos una empresa encargada en la fabricacion y diseño de Uniformes para otras empresas con mas de 6 años en el mercado.</p>
 									</div>
 								</div>
 
 								<div class="accordion_container">
-									<div class="accordion d-flex flex-row align-items-center"><div>Ipsum dolor sit amet, consectetur?</div></div>
+									<div class="accordion d-flex flex-row align-items-center"><div>Quieres saber nuestros objetivos?</div></div>
 									<div class="accordion_panel">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo.</p>
+										<p>Uno de nustros objetivos es ser una de las empresas textiles mas reconocidas en el mercado colombiano .</p>
 									</div>
 								</div>
 
 								<div class="accordion_container">
-									<div class="accordion d-flex flex-row align-items-center active"><div>Proin eu dui porta, pretium metus vitae?</div></div>
+									<div class="accordion d-flex flex-row align-items-center active"><div>Quires saber cual es nuestra vision como empresa?</div></div>
 									<div class="accordion_panel">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis quam ipsum. Pellentesque consequat tellus non tortor tempus, id egestas elit iaculis. Proin eu dui porta, pretium metus vitae, pharetra odio. Sed ac mi commodo, pellentesque erat eget, accumsan justo.</p>
+										<p>En 5 años tener 3 puntos de ventas y fabricas a nivel nacional"Bucaramanga, Medellin,Bogota>
 									</div>
 								</div>
 
@@ -242,28 +242,40 @@
 					<div class="col-lg-10 offset-lg-1">
 						<div class="newsletter_form_container">
 						<h1> INSERTAR CLIENTE</h1>
-        <form action="insercion.php"  method="post">
+        <form id="formulario" role=" form" action="insercion.php"  method="post">
+			<div class="col-md-6">
             <fieldset>
-                <label for="">NOMBRE</label>
-                <input type="text" name="nombre"><br>
-                <label for="">CEDULA</label>
-                <input type="number" name="cedula"><br>
-                <label for="">APELLIDOS</label>
-                <input type="text" name="apellidos"><br>
-                <label for="">DIRECCION</label>
-                <input type="texto" name="direccion"><br>
-                <label for="">TELEFONO</label>
-                <input type="number" name="telefono"><br>
-                <label for="">CORREO</label>
-                <input type="email" name="correo"><br>
-               <input type="submit" value="Subcribete">
-                  
+		
+              
+                 
+                
+                <label  class="lgris">nombres:</label>
+                <input  class="form-control"  style="text-transform: uppercase;"  type="text"  name="nombres"  value=""  placeholder="nombres" required/>
+                
+				<label  class="lgris">cedula:</label>
+                 
+				 <input  class="form-control"  type="number" name="cedula" min="9999" max="9999999999999" value="" placeholder="cedula"  required/>
+                <label  class="lgris">apellidos:</label>
+                <input  class="form-control"  style="text-transform: uppercase;"  type="text"  name="apellidos"  value=""  placeholder="apellidos" required/>
+                
+                <label  class="lgris">dirección:</label>
+                <input  class="form-control"  style="text-transform: uppercase;"  type="text"  name="direccion"  value=""  placeholder="direccion" required/>
+                
+                <label  class="lgris">teléfono:</label>
+                 
+                <input  class="form-control"  type="number" name="telefono" min="9999" max="9999999999999" value="" placeholder="telefono"  required/>
+                
+                <label  class="lgris">correo:</label>
+                <input  class="form-control"  type="text"  name="correo"  style="text-transform: uppercase;"  value=""  placeholder="correo"  required/>
+                <br>
+                <input  class="btn  btn-primary"  type="submit"
+                value="Guardar" >
         
             </fieldset>
         </form>
         
 						</div>
-						<div class="newsletter_text">Integer ut imperdiet erat. Quisque ultricies lectus tellus, eu tristique magna pharetra nec. Fusce vel lorem libero. Integer ex mi, facilisis sed nisi ut, vestib ulum ultrices nulla. Aliquam egestas tempor leo.</div>
+						<img src="IMG/fondolegal.jpg">
 					</div>
 				</div>
 			</div>
@@ -276,13 +288,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center">
-					<div class="footer_logo"><a href="#">Wish</a></div>
+					<div class="footer_logo"><a href="#">Dijilmarch</a></div>
 					<nav class="footer_nav">
 						<ul>
-							<li><a href="index.html">home</a></li>
-							<li><a href="categories.html">clothes</a></li>
-							<li><a href="categories.html">accessories</a></li>
-							<li><a href="categories.html">lingerie</a></li>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="categories.html">categorias</a></li>
+							<li><a href="categories.html">Uniformes</a></li>
+							<li><a href="categories.html">Ropa cristiana</a></li>
 							<li><a href="contact.html">contact</a></li>
 						</ul>
 					</nav>
@@ -296,7 +308,7 @@
 						</ul>
 					</div>
 					<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Creado &por<script>document.write(new Date().getFullYear());</script>  <i class="fa fa-heart-o" aria-hidden="true"></i> De<a href="https://colorlib.com" target="_blank">Ddiltec</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 				</div>
 			</div>
