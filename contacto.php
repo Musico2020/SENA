@@ -10,14 +10,19 @@
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/contact.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
+<link rel="stylesheet" href="css/whapsapp.css">
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/whapsapp.css">
 </head>
 <body>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<a href="https://api.whatsapp.com/send?phone=3107063008&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Dijilmarch%202." class="float" target="_blank">
+	<i class="fa fa-whatsapp my-float"></i>
+	</a>
 <div class="super_container">
 	
 	<!-- Header -->
@@ -27,7 +32,11 @@
 			<div class="logo"><a href="#">Dijilmarch</a></div>
 			<nav class="main_nav">
 				<ul>
-					<li><a href="index.html">inicio</a></li>
+				<li><a href="#">inicio</a></li>
+					<li><a href="categories.html">categorias</a></li>
+					<li><a href="categories.html">uniformes</a></li>
+					<li><a href="categories.html">ropa cristiana</a></li>
+					<li><a href="contacto.php">contacto</a></li>
 					
 				</ul>
 			</nav>
@@ -99,7 +108,7 @@
 	<!-- Home -->
 
 	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/contact.jpg" data-speed="0.8"></div>
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/contac.jpg" data-speed="0.8"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col">
@@ -120,13 +129,10 @@
 	</div>
 
 	<!-- Google Map -->
-		
+	<br>
+	<br>	
 	<div class="map">
-		<div id="google_map" class="google_map">
-			<div class="map_container">
-				<div id="map"></div>
-			</div>
-		</div>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d245.20717953316296!2d-73.24653640752076!3d10.475825325615725!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d10.4759193!2d-73.2465565!4m0!5e0!3m2!1ses!2sco!4v1638883285008!5m2!1ses!2sco" width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 	</div>
 	
 	<!-- Contact Form -->
@@ -138,7 +144,7 @@
 					<div class="review_form_container">
 						<div class="review_form_title">Ponerse en contacto</div>
 						<div class="review_form_content">
-						<p style="text-align: right; "> <img src="https://clientes.dongee.com/whatsapp.png" width="90px" height="90px" alt="Whatsapp" onclick="window.location.href='https://wa.me/573107063008?text=Hola!%20Estoy%20interesado%20en%20tu%20servicio'"> </p>
+						
 						</div>
 					</div>
 				</div>
@@ -275,7 +281,7 @@
         </form>
         
 						</div>
-						<img src="IMG/fondolegal.jpg">
+						
 					</div>
 				</div>
 			</div>
